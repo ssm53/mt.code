@@ -2,9 +2,9 @@
   import Step from "./Step.svelte";
 
   let steps = [
-    {name: 'AI Image Generator', icon: ' fa-solid fa-cart-shopping'},
-    {name: 'Digital Image E-commerce store', icon: ' fa-solid fa-list-check'},
-    {name: 'Jobs Marketplace', icon: ' fa-solid fa-diagram-project'}
+    {name: 'AI Image Generator', icon: ' fa-solid fa-cart-shopping', href: "https://zencraft.pages.dev/?fbclid=IwAR2TK43DzgKWVZC8SOAbsvJcBODd158wg3bGfIGYorcZW9Sznp4Ycsy-MJM"},
+    {name: 'Digital Image E-commerce store', icon: ' fa-solid fa-list-check', href: "https://next-ecomm-fe.pages.dev/"},
+    {name: 'Jobs Marketplace', icon: ' fa-solid fa-diagram-project', href: "https://first-svelte-app.pages.dev/"}
   ]
 
   let benefits = [
@@ -36,7 +36,7 @@
       <h4 class="relative z-9">Get in touch &rarr;</h4>
     </a>
   </div>
-  <div class=" relative shadow-2xl grid place-items-center">
+  <div class=" relative shadow-2xl grid place-items-center flex flex-col">
     <img src="images/profile.jpg" alt="profile pic" class="object-cover z-[2] max-h-[70vh]" />
 
   </div>
@@ -49,10 +49,21 @@
       <h3 class=" font-semibold text-3xl sm:text-4xl md:text-5xl">Curious to <span class="poppins text-violet-400">see</span> my work? </h3>
       
     </div>
-    <a href="#" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
-      <i class="fa-regular fa-circle-play"></i>
-      <p>Watch the video</p>
-    </a>
+    <div class="flex flex-row justify-between">
+      <a href="#" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
+        <i class="fa-regular fa-circle-play"></i>
+        <p>View Demo</p>
+      </a>
+      <a href="#" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
+        <i class="fa-regular fa-circle-play"></i>
+        <p>View Demo</p>
+      </a>
+      <a href="#" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
+        <i class="fa-regular fa-circle-play"></i>
+        <p>View Demo</p>
+      </a>
+
+    </div>
     <div class=" grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
         <p>Zez AI is an AI Image Generator created with <strong class=" text-violet-400">Sveltekit, Node.js, OpenAI API, Express.js, PostgreSQL, Prisma & Stripe.</strong> Images are stored and uploaded using Multer and Stripe is used for all transaction handling. CRUD application which allows users to login using JWT tokens, generate any image using AI based on their prompt, edit any image they upload, create a variation of an uploaded image, view creations, and download creations. Users are given 5 free prompts, and after that they will have to pay $10 to get a total of 50 prompts.

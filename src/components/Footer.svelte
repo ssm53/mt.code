@@ -3,11 +3,25 @@
 
   </p>
   <div class=" flex flex-col gap-4 justify-center items-center">
-    <p><b class=" pr-2">Email</b>shaunshanil95@gmail.com
+    <p><b class=" pr-2">Email:</b>shaunshanil95@gmail.com
 
     </p>
-    <p><b class=" pr-2">Github</b>
-      <a class=" text-violet-400" target="_blank" href="#">
+    <p><b class=" pr-2">Linkedin:</b>
+      <a class=" text-violet-400" target="_blank" href="https://www.linkedin.com/in/shaun-shanil-menezes/">
+        Shaun Shanil Menezes<sup><span class=" text-xs scale-75 pl-0.5">
+          <i class=" fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"></i>
+
+        </span>
+        </sup>
+
+      </a>
+
+    </p>
+    <p><b class=" pr-2">Mobile Number/ Whatsapp:</b>+6012-3397028
+
+    </p>
+    <p><b class=" pr-2">Github:</b>
+      <a class=" text-violet-400" target="_blank" href="https://github.com/ssm53">
         ssm53<sup><span class=" text-xs scale-75 pl-0.5">
           <i class=" fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"></i>
 
