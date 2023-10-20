@@ -1,7 +1,8 @@
 // CONFIRM BASIC THINGS
-// frontend set up
-// backend hosting and set up
-// deployment
+// frontend set up (done)
+// backend hosting and set up (done)
+// backend deployment (ISSUE)
+// frontend deployment
 // fix images not showing
 
 // CONFIRM ADDITIONAL THINGS TO DO
@@ -13,4 +14,5 @@
 // 1. do video of yourself, add watch intro video in main, and do link to it
 
 // next up
-// frontend set up
+
+// backend deployment (not done)
