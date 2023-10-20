@@ -2,9 +2,9 @@
   import Step from "./Step.svelte";
 
   let steps = [
-    {name: 'AI Image Generator', icon: ' fa-solid fa-cart-shopping', href: "https://zencraft.pages.dev/?fbclid=IwAR2TK43DzgKWVZC8SOAbsvJcBODd158wg3bGfIGYorcZW9Sznp4Ycsy-MJM"},
-    {name: 'Digital Image E-commerce store', icon: ' fa-solid fa-list-check', href: "https://next-ecomm-fe.pages.dev/"},
-    {name: 'Jobs Marketplace', icon: ' fa-solid fa-diagram-project', href: "https://first-svelte-app.pages.dev/"}
+    {name: 'AI Image Generator', icon: ' fa-solid fa-cart-shopping', href: "https://zencraft.pages.dev/?fbclid=IwAR2TK43DzgKWVZC8SOAbsvJcBODd158wg3bGfIGYorcZW9Sznp4Ycsy-MJM", fe:"https://github.com/ssm53/zencraft", be:"https://github.com/ssm53/zencraftBE"},
+    {name: 'Digital Image E-commerce store', icon: ' fa-solid fa-list-check', href: "https://next-ecomm-fe.pages.dev/", fe:"https://github.com/ssm53/Next-Ecomm-FE", be:"https://github.com/ssm53/Next-ecom-BE"},
+    {name: 'Jobs Marketplace', icon: ' fa-solid fa-diagram-project', href: "https://first-svelte-app.pages.dev/", fe:"https://first-svelte-app.pages.dev/", be:"https://first-svelte-app.pages.dev/"}
   ]
 
   let benefits = [

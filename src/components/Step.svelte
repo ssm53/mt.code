@@ -11,7 +11,12 @@
 
   </h3>
   <slot />
-  <div class=" flex-1 flex justify-between gap-4 items-center">
+  <div class=" flex-1 flex justify-between gap-4 items-center flex-col">
+    <div class="flex flex-row gap-9">
+      <a href={step.fe} target="_blank" class="relative z-4 text-indigo-400 hover:text-indigo-700">Frontend Repo</a>
+      <a href={step.be} target="_blank" class="relative z-4 text-indigo-400 hover:text-indigo-700">Backend Repo</a>
+    </div>
+ 
     <div class=" ml-auto cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:h-0 after:right-full after:w-full after:h-full after:bg-white after: after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden">
       <a href={step.href} target="_blank" class="relative z-4">Go to &rarr;</a>
 
