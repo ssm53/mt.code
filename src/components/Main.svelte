@@ -50,15 +50,15 @@
       
     </div>
     <div class="flex flex-row justify-between">
-      <a href="#" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
+      <a href="https://www.loom.com/share/a42dbce17933406d86a1780d61857038?sid=f86a6a4d-b4e6-4f8c-a6d2-6e0ade47d715&fbclid=IwAR3yeW1arS0NsQSP8hAEyxpPgs3FpuFV0MS4DlS1h8f9OiY7p4Eq9Rm5ys8" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
         <i class="fa-regular fa-circle-play"></i>
         <p>View Demo</p>
       </a>
-      <a href="#" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
+      <a href="https://www.loom.com/share/bec45da26ecb4b42b82db4424e0dde43?fbclid=IwAR1IdJ6Pbqb2D_SKEOATlsJUJCim-fSfLT77B6gas8IfIasa9_fQFZNHe8Y" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
         <i class="fa-regular fa-circle-play"></i>
         <p>View Demo</p>
       </a>
-      <a href="#" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
+      <a href="https://www.loom.com/share/74a4f5933d22468cad1c7bacad818e8d?sid=558ee602-4035-4c08-8d44-54ee55d8fe18&fbclid=IwAR0yvMlR_mRYSRGyoS64aF0FAB-w8E82XH2MxUFfDUk1cLEgFK-_3JH1Vjk" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
         <i class="fa-regular fa-circle-play"></i>
         <p>View Demo</p>
       </a>
