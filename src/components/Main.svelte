@@ -9,7 +9,7 @@
 
   let benefits = [
     {name:'a passionate developer', description: 'I pivoted to be a software developer in August 2023 and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.'},
-    {name:'a product design and backend fanatic', description: 'Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.'},
+    {name:'a product functionality and backend fanatic', description: 'Carefully crafting and designing additional product functionalities allows me to express and experiment with every morsel of creativity I have. I also love the challenge of learning new design concepts and enabling users with amazing online experiences.'},
     {name:'an excellent communicator with great business acumen', description: 'Previously being in the world of finance and co-founding an NFT project raising RM1.2 million, I have developed my soft-skills to work well in a successful team and contribute to non-technical areas as well'},
   ]
 
@@ -71,7 +71,7 @@
 
       </Step>
       <Step step={steps[1]}>
-        <p>Zez E-commerse is an digital image e-commerce store created with <strong class=" text-violet-400">Sveltekit, Node.js, AWS, Express.js, PostgreSQL, Prisma & Stripe.</strong> Images are stored and uploaded using AWS S3 buckets and Stripe is used for all transaction handling. CRUD application which allows users to login together with JWT access and refresh tokens, upload an image for sale, view their images for sale, delete their images for sale, and finally purchase an image.
+        <p>Zez E-commerce is an digital image e-commerce store created with <strong class=" text-violet-400">Sveltekit, Node.js, AWS, Express.js, PostgreSQL, Prisma & Stripe.</strong> Images are stored and uploaded using AWS S3 buckets and Stripe is used for all transaction handling. CRUD application which allows users to login together with JWT access and refresh tokens, upload an image for sale, view their images for sale, delete their images for sale, and finally purchase an image.
         </p>
 
       </Step>
@@ -88,9 +88,16 @@
   <section id="about" class=" py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
     <div class=" flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4">
       <h6 class=" text-lg sm:text-xl md:text-2xl">Want to know more?</h6>
-      <h3 class=" font-semibold text-3xl sm:text-4xl md:text-5xl">A bit <span class="poppins text-violet-400">about</span>me</h3>
+      <h3 class=" font-semibold text-3xl sm:text-4xl md:text-5xl">A bit <span class="poppins text-violet-400">about</span> me</h3>
     </div>
-    <p class=" mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">I am . . .
+    <p class=" mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">I pivoted to be a developer. Previosuly, I was a financial accountant in Deloitte, UK.
+    <div class=" flex justify-center items-center">
+      <a href="/resume" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 w-80 hover:border-violet-700 duration-200">
+        <p class="text-center ml-24">View Resume</p>
+      </a>
+
+    </div>
+    <p class=" mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">Now, I am . . .
 
     </p>
     <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
