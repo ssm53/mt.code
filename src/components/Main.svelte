@@ -90,7 +90,7 @@
       <h6 class=" text-lg sm:text-xl md:text-2xl">Want to know more?</h6>
       <h3 class=" font-semibold text-3xl sm:text-4xl md:text-5xl">A bit <span class="poppins text-violet-400">about</span> me</h3>
     </div>
-    <p class=" mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">I pivoted to be a developer. Previosuly, I was a financial accountant in Deloitte, UK.
+    <p class=" mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">I pivoted to be a developer. Previously, I was a financial accountant in Deloitte, UK.
     <div class=" flex justify-center items-center">
       <a href="/resume" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 w-80 hover:border-violet-700 duration-200">
         <p class="text-center ml-24">View Resume</p>
