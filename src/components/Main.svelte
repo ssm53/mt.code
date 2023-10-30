@@ -71,7 +71,7 @@
 
       </Step>
       <Step step={steps[1]}>
-        <p>Zez E-commerce is an digital image e-commerce store created with <strong class=" text-violet-400">Sveltekit, Node.js, AWS, Express.js, PostgreSQL, Prisma & Stripe.</strong> Images are stored and uploaded using AWS S3 buckets and Stripe is used for all transaction handling. CRUD application which allows users to login together with JWT access and refresh tokens, upload an image for sale, view their images for sale, delete their images for sale, and finally purchase an image.
+        <p>Zez E-commerce is a digital image e-commerce store created with <strong class=" text-violet-400">Sveltekit, Node.js, AWS, Express.js, PostgreSQL, Prisma & Stripe.</strong> Images are stored and uploaded using AWS S3 buckets and Stripe is used for all transaction handling. CRUD application which allows users to login together with JWT access and refresh tokens, upload an image for sale, view their images for sale, delete their images for sale, and finally purchase an image.
         </p>
 
       </Step>
