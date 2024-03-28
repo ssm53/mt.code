@@ -8,9 +8,9 @@
   ]
 
   let benefits = [
-    {name:'a passionate developer', description: 'I pivoted to be a software developer in August 2023 and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.'},
-    {name:'a product functionality and backend fanatic', description: 'Carefully crafting and designing additional product functionalities allows me to express and experiment with every morsel of creativity I have. I also love the challenge of learning new design concepts and enabling users with amazing online experiences.'},
-    {name:'an excellent communicator with great business acumen', description: 'Previously being in the world of finance and co-founding an NFT project raising RM1.2 million, I have developed my soft-skills to work well in a successful team and contribute to non-technical areas as well'},
+    {name:'100% money back guaranteed', description: 'You heard that right, we only get paid if you are happy. Win-win.'},
+    {name:'we will host your website forever', description: "You don't need to worry if your website will not function, forever"},
+    {name:'free access to our AI chatbots', description: 'AI is cool. We are developing chatbots which can analyse any document. Imagine a ChatGPT but for your own documents'},
   ]
 
 
@@ -20,11 +20,11 @@
   <section id="introPage" class=" grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
     <div class=" flex flex-col justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
       <h2 class=" font-semibold text-4xl sm:text-5xl md:text-6xl">
-        Hi, I'm <span class="poppins text-violet-400">Shaun</span> Shanil Menezes <br/>Full Stack
-        <span class="poppins text-violet-400">Developer</span>
+        We're <span class="poppins text-violet-400">MOUNT</span> CODE <br/>We build
+        <span class="poppins text-violet-400">websites</span>
       </h2>
     <p class="text-base sm:text-lg md:text-xl">
-      My <span class="poppins text-violet-400">favourite tech</span> includes Javascript, Sveltekit, TailwindCSS, DaisyUI, Node.js, Express.js, Docker, AWS, Prisma & PostgreSQL!
+      If you're not satisfied, <span class="poppins text-violet-400">100% money back guarantee</span>
 
     </p>
     <!-- <a class=" blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer" href='#' target="_blank">
@@ -37,7 +37,7 @@
     </a>
   </div>
   <div class=" relative shadow-2xl grid place-items-center flex flex-col">
-    <img src="images/profile.jpg" alt="profile pic" class="object-cover z-[2] max-h-[70vh]" />
+    <img src="src/images/Mountcode-logo.png" alt="profile pic" class="object-cover z-[2] max-h-[70vh]" />
 
   </div>
 
@@ -45,8 +45,8 @@
 
   <section id="projects" class=" py-20 lg:py-32 flex flex-col gap-24">
     <div class=" flex flex-col gap-2 text-center">
-      <h6 class=" text-lg sm:text-xl md:text-2xl">A few of my creative endeavours</h6>
-      <h3 class=" font-semibold text-3xl sm:text-4xl md:text-5xl">Curious to <span class="poppins text-violet-400">see</span> my work? </h3>
+      <h6 class=" text-lg sm:text-xl md:text-2xl">A few of our creative endeavours</h6>
+      <h3 class=" font-semibold text-3xl sm:text-4xl md:text-5xl">Curious to <span class="poppins text-violet-400">our</span> work? </h3>
       
     </div>
     <div class="flex flex-row justify-between">
@@ -66,17 +66,17 @@
     </div>
     <div class=" grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
-        <p>Zez AI is an AI Image Generator created with <strong class=" text-violet-400">Sveltekit, Node.js, OpenAI API, Express.js, PostgreSQL, Prisma & Stripe.</strong> Images are stored and uploaded using Multer and Stripe is used for all transaction handling. CRUD application which allows users to login using JWT tokens, generate any image using AI based on their prompt, edit any image they upload, create a variation of an uploaded image, view creations, and download creations. Users are given 5 free prompts, and after that they will have to pay $10 to get a total of 50 prompts.
+        <p>Zez AI is an AI Image Generator.<strong class=" text-violet-400">You can create any image you want!</strong> First 5 images are FREE.
         </p>
 
       </Step>
       <Step step={steps[1]}>
-        <p>Zez E-commerce is a digital image e-commerce store created with <strong class=" text-violet-400">Sveltekit, Node.js, AWS, Express.js, PostgreSQL, Prisma & Stripe.</strong> Images are stored and uploaded using AWS S3 buckets and Stripe is used for all transaction handling. CRUD application which allows users to login together with JWT access and refresh tokens, upload an image for sale, view their images for sale, delete their images for sale, and finally purchase an image.
+        <p>Zez E-commerce is a digital image e-commerce store created to <strong class=" text-violet-400">showcase these cute lil wassies</strong> Seriously tho, how cute are they?
         </p>
 
       </Step>
       <Step step={steps[2]}>
-        <p>Zez Jobs is a job marketplace created with <strong class=" text-violet-400">Sveltekit and Pocketbase.</strong> The backend was set up using Pocketbase. Users can view jobs and filter based on skills and location. After signing up and logging in, employers can post a job, view their jobs and edit their jobs.
+        <p>Zez Jobs is a job marketplace. <strong class=" text-violet-400">Get the job of your dreams, if it even if exists.</strong> 
         </p>
 
       </Step>
@@ -88,16 +88,16 @@
   <section id="about" class=" py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
     <div class=" flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4">
       <h6 class=" text-lg sm:text-xl md:text-2xl">Want to know more?</h6>
-      <h3 class=" font-semibold text-3xl sm:text-4xl md:text-5xl">A bit <span class="poppins text-violet-400">about</span> me</h3>
+      <h3 class=" font-semibold text-3xl sm:text-4xl md:text-5xl">A word <span class="poppins text-violet-400">from</span> the founder</h3>
     </div>
-    <p class=" mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">I pivoted to be a developer. Previously, I was a financial accountant in Deloitte, UK.
-    <div class=" flex justify-center items-center">
+    <p class=" mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">Yoo, I'm Shaun. Long story short, I was an auditor at Deloitte, UK before co-founding an NFT project, which had a revenue of RM1.2 million. It was a ball of a time running it and I saw the power of tech and code, and thought it would be cool if I can empower retail businesses with this, starting with websites. Also, I a;ways believe in a win-win solution, so I only get paid if you're satisfied. 
+    <!-- <div class=" flex justify-center items-center">
       <a href="/resume" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 w-80 hover:border-violet-700 duration-200">
         <p class="text-center ml-24">View Resume</p>
       </a>
 
-    </div>
-    <p class=" mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">Now, I am . . .
+    </div> -->
+    <p class=" mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">Here's our pitch . . .
 
     </p>
     <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
@@ -221,7 +221,7 @@
       <p>Scroll to see more &rarr;</p>
 
     </div>
-    <p class=" mx-auto">So why not invest?</p>
+    <p class=" mx-auto">If you read till here, here's my present to you - have a good day :)</p>
 
   </section>
 
